@@ -1,0 +1,25 @@
+.Section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.column {
+  background-color: #1b1a19;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+.row {
+  width: 50vw;
+  background-color: #fac670;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2vw 1.5vw 1.5vw;
+}
+
+body{
+    margin: 0;
+}
